@@ -1,0 +1,75 @@
+#barra-nav{
+    position: -webkit-sticky;  /** Esto es para que persista en el scroll*/
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-color: #333;
+}
+
+#barra-nav ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#barra-nav li {
+    float: left;
+}
+
+#barra-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+#links a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#links ul{
+    display: inline-block;
+}
+
+
+
+
+#col-izquierda{
+    background-color: powderblue;
+    font-size: 21px;
+    text-align: center;
+}
+
+#foto-cv {
+    margin: 15%;
+}
+
+#col-izquierda ul {
+    list-style: none;
+}
+
+
+
+#col-derecha{
+    background-color: cornsilk;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#col-derecha li{
+    font-size: 20px;
+}
+
+
+
+
+.espacio{
+    margin-top: 100px;
+}
+
